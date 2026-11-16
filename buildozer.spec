@@ -1,37 +1,27 @@
 [app]
 
-# የአፑ ስም
 title = Telegram Bot App
-
-# የፓኬጅ ስም (package name)
 package.name = telegrambotapp
-
-# የዶሜይን ስም
 package.domain = org.telegram
 
-# የኮድ ፋይሎቹ የሚገኙበት ፎልደር (ወቅታዊው ፎልደር መሆኑን ያሳያል)
 source.dir = .
+source.exts = py
 
-# የሚጠቀሟቸው ፋይል አይነቶች
-source.exts = py,png,jpg,kv,atlas
-
-# የአፑ ስሪት
 version = 0.1
 
-# የሚያስፈልጉ የ Python ላይብረሪዎች እና ሞጁሎች
-requirements = python3,kivy,requests,urllib3,certifi,idna,charset-normalizer
+# ሬኩየርመንቱን ቀለል ባለ መልኩ እናደርገዋለን
+requirements = python3,requests
 
-# የአፕሊኬሽኑ አቅጣጫ (ቁልቁል - portrait)
 orientation = portrait
 
-# ለአፑ የሚያስፈልጉ ሲስተም ፍቃዶች (ከኢንተርኔት ጋር ለመገናኘት INTERNET ግዴታ ነው)
 android.permissions = INTERNET
 
-# የአንድሮይድ ኤስዲኬ እና ኤንዲኬ ማስተካከያ (ለ GitHub Actions ተስማሚ)
-android.api = 33
+# የተረጋጉ የአንድሮይድ ኤስዲኬ እና ኤንዲኬ ስሪቶች
+android.api = 31
 android.minapi = 21
-android.sdk = 30
-android.ndk = 25b
+android.sdk = 31
+android.ndk = 23b
+android.accept_sdk_license = True
 
 [buildozer]
 log_level = 2
