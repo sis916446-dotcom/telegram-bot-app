@@ -9,12 +9,12 @@ source.exts = py
 
 version = 0.1
 
-requirements = python3,requests,openssl,certifi
+# ምንም አይነት ውጫዊ ላይብረሪ አያስፈልግም
+requirements = python3
 
 orientation = portrait
 android.permissions = INTERNET
 
-# NDK እና SDK ስሪቶችን ወደ 25b እና 33 እናስተካክላለን
 android.api = 33
 android.minapi = 21
 android.sdk = 33
