@@ -9,11 +9,10 @@ source.exts = py
 
 version = 0.1
 
-# ሬኩየርመንቱን ቀለል ባለ መልኩ እናደርገዋለን
+# የ Python እና የ requests ላይብረሪ ብቻ
 requirements = python3,requests
 
 orientation = portrait
-
 android.permissions = INTERNET
 
 # የተረጋጉ የአንድሮይድ ኤስዲኬ እና ኤንዲኬ ስሪቶች
