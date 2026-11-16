@@ -9,8 +9,8 @@ source.exts = py
 
 version = 0.1
 
-# የ Python እና የ requests ላይብረሪ ብቻ
-requirements = python3,requests
+# 'openssl' እና 'certifi' ከ requests ጋር እንዲሰራ ግዴታ ናቸው
+requirements = python3,requests,openssl,certifi
 
 orientation = portrait
 android.permissions = INTERNET
