@@ -19,8 +19,8 @@ class TelegramBotApp(App):
 
     def send_telegram_message(self, instance):
         # የቦትዎን ቶከን (Token) እና የቻት መታወቂያ (Chat ID) እዚህ ያስገቡ
-        TOKEN = "YOUR_BOT_TOKEN_HERE"
-        CHAT_ID = "YOUR_CHAT_ID_HERE"
+        TOKEN = "9038413079:AAEEpRaf2p7Mw2f4Ove0XJXk160u7s-cMbA"
+        CHAT_ID = "6752244528"
         message = "ሰላም! ይህ ከአንድሮይድ አፕሊኬሽን የተላከ መልእክት ነው።"
         
         url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
