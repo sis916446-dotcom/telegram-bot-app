@@ -9,17 +9,16 @@ source.exts = py
 
 version = 0.1
 
-# 'openssl' እና 'certifi' ከ requests ጋር እንዲሰራ ግዴታ ናቸው
 requirements = python3,requests,openssl,certifi
 
 orientation = portrait
 android.permissions = INTERNET
 
-# የተረጋጉ የአንድሮይድ ኤስዲኬ እና ኤንዲኬ ስሪቶች
-android.api = 31
+# NDK እና SDK ስሪቶችን ወደ 25b እና 33 እናስተካክላለን
+android.api = 33
 android.minapi = 21
-android.sdk = 31
-android.ndk = 23b
+android.sdk = 33
+android.ndk = 25b
 android.accept_sdk_license = True
 
 [buildozer]
